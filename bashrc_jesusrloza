@@ -15,4 +15,4 @@
 # End of personal aliases - jesusrloza
 
 # Set preferred EDITOR
-export EDITOR=/usr/bin/nvim"
+export EDITOR=/usr/bin/nvim
