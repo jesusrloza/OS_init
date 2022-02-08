@@ -16,3 +16,4 @@
 
 # Set preferred EDITOR
 export EDITOR=/usr/bin/nvim
+
