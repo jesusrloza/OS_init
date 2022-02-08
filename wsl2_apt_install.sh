@@ -1,6 +1,10 @@
 #!/usr/bin/sh
 sudo apt update -y && sudo apt upgrade -y
 
+# Append my bashrc configurations
+cat ./bashrc_jesusrloza >> ~/.bashrc
+source ~/.bashrc
+
 # CLI programs
 sudo apt-get install openssl qrencode poppler-utils -y
 sudo apt-get install git neovim neofetch ranger htop curl tree -y

@@ -6,6 +6,7 @@ sudo apt-get update -y && sudo apt-get upgrade -y
 
 # Append my bashrc configurations
 cat ./bashrc_jesusrloza >> ~/.bashrc
+source ~/.bashrc
 
 # GUI and quality of life programs
 sudo apt-get install libreoffice keepassxc transmission -y
