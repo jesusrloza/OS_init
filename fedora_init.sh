@@ -26,7 +26,7 @@ sudo dnf install python3 python3-pip sqlite3 -y
 
 # Jupyter Notebooks and Pip config for Data Analysis
 sudo dnf install python3-notebook mathjax sscg inkscape -y
-pip3 install -U pip notebook # youtube-dl
+pip3 install -U pip notebook psutil openpyxl # youtube-dl
 pip3 install -U numpy pandas scikit-learn matplotlib seaborn nltk beautifulsoup4
 
 # Enable ms-corefonts

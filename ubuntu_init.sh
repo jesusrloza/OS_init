@@ -22,7 +22,7 @@ sudo apt-get install python3 python3-pip sqlite3 jupyter -y
 # sudo apt-get install pandoc texlive-xetex texlive-fonts-recommended texlive-plain-generic -y
 
 # Pip config for Data Analysis
-pip3 install -U pip notebook # youtube-dl
+pip3 install -U pip notebook psutil openpyxl # youtube-dl
 pip3 install -U numpy pandas scikit-learn matplotlib seaborn nltk beautifulsoup4
 
 # Snaps
